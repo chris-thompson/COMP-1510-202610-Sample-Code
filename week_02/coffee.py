@@ -18,7 +18,7 @@ tax = round((subtotal + shipping_charges) * TAX_RATE, 2)
 total = round(subtotal + shipping_charges + tax, 2)
 
 # Format and print the results
-print('-'*32)
+print('-' * 32)
 print(number_of_pounds, 'lbs @', PRICE_PER_POUND, '/ lb\t\t$', subtotal)
 print('Shipping:\t\t\t\t$', shipping_charges)
 print('Tax:\t\t\t\t\t$', tax)
