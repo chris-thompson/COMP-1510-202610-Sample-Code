@@ -2,8 +2,8 @@
 Using the if-else statement (an example).
 """
 
-BASE_HOURS = 40       # Base hours per week
-OVERTIME_MULTIPLIER = 1.5   # Overtime multiplier
+BASE_HOURS = 40  # Base hours per week
+OVERTIME_MULTIPLIER = 1.5  # Overtime multiplier
 
 # Get the hours worked and the hourly pay rate.
 hours = float(input('Enter the number of hours worked: '))

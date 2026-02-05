@@ -6,8 +6,7 @@ floating point numbers is a bit more complicated.
 
 password = input('Enter the password: ')
 
-# Determine whether the correct password
-# was entered.
+# Determine whether the correct password was entered.
 if password == 'prospero':
     print('Password accepted.')
 else:
