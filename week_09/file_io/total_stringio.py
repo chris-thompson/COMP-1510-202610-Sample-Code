@@ -39,7 +39,6 @@ def main():
     # Open two files at once
     with open('number_pairs.txt', 'r') as input_file, \
             open('number_pair_sums.txt', 'w') as output_file:
-
         # Pass both to a different function
         sum_number_pairs(input_file, output_file)
 
